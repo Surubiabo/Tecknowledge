@@ -133,12 +133,11 @@ header {
         display: block;
     }
     .Banner-text{
-        padding-top: 50%;
-        justify-content: left;
+        padding-top: 55%;
+        padding-inline: 52px;
         color: #fff;
-        align-content: left;
+        align-content: center;
         letter-spacing: 2px;
         font-size: clamp( 1rem, 5vw, 50vh);
-
-    }
+    }   
 }
