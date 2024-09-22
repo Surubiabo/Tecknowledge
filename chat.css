@@ -68,7 +68,33 @@ header {
     display: none;
 }
 
-@media screen and (max-width: 730px) {
+/*banner*/
+.container{
+    width: 100%;
+    height: 50vh;
+}
+.Banner-text{
+    padding-left:42%;
+    padding-top: 17%;
+    justify-content: center;
+    color: #fff;
+    font-size: 35px;
+}
+.banner {
+    width: 100%;
+    height: 50vh;        
+    background: url('main-banner.jpeg') no-repeat;
+    background-size: cover;
+    background-position: 69%;
+    position: fixed;
+    object-fit: 25% ;
+    justify-content: center;
+    border-radius: 2%;
+    }
+    
+
+/*responsividade da página*/
+@media screen and (max-width: 720px) {
     .nav-bar {
         padding: 1.5rem 4rem;
     }
@@ -106,34 +132,13 @@ header {
     .open {
         display: block;
     }
-}
+    .Banner-text{
+        padding-top: 50%;
+        justify-content: left;
+        color: #fff;
+        align-content: left;
+        letter-spacing: 2px;
+        font-size: clamp( 1rem, 5vw, 50vh);
 
-/*banner*/
-h2{
-    display: flex;
-    justify-content: center;
-    padding-top: 15em;
-    padding-bottom: 15px;
-}
-p{
-    display: flex;
-    justify-content: center;
-}
-#main-banner {
-        background: url('main-banner.jpeg') no-repeat;
-        background-size: cover;
-        background-position: 0 55%;
-        position: relative;
-        margin-top: 100px;
     }
- #search-form {
-        position: relative;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 15em;
-        padding-bottom: 15em;
-        text-align: center;
-    }
-
-
+}
